@@ -73,7 +73,7 @@ public class EcuacionPrimerGrado {
 	 * @return EcuacionPrimerGrado resultante de la suma de las 2 ecuaciones de 1º
 	 *         grado que se pasan como parámetros
 	 */
-	public EcuacionPrimerGrado sumar(EcuacionPrimerGrado ec1, EcuacionPrimerGrado ec2) {
+	public static EcuacionPrimerGrado sumar(EcuacionPrimerGrado ec1, EcuacionPrimerGrado ec2) {
 		EcuacionPrimerGrado ret = new EcuacionPrimerGrado(ec1.getParte1() + ec2.getParte1(),
 				ec1.getParte2() + ec2.getParte2(), ec1.getParte3() + ec2.getParte3());
 		return ret;
